@@ -26,7 +26,7 @@ const Validation = () => {
                     <th>Bonos adquiridos</th>
                     <th>Fecha</th>
                     <th>Proyectos</th>
-                    <th>Certificadi carbono neutra</th>
+                    <th>Certificado carbono neutra</th>
                     </tr>
                 </thead>
                 <tbody>
