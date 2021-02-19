@@ -12,17 +12,37 @@ body {
   background-size: cover;
   min-height: 500px;
   margin: 0px;
+  width: 100%;
 }
 
 .description {
   width: 50%;
-  height: 328px;
   margin: 0px 100px;
   padding: 40px 0px;
+  text-align: left;
 }
 
 .description h1 {
   font-size: 3vw;
+  line-height: 4rem;
+  font-weight: bold;
+}
+
+.invitation {
+  width: 50%;
+  margin: 0px 100px;
+  text-align: left;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.invitation p {
+  background-color: #FFBC15;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 1rem 0 1rem;
 }
 
 .btnAction {
@@ -45,16 +65,18 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FFFFFF;
+  font-weight: bold;
   background-color: #1930DB;
   border-radius: 10PX;
   border-color: #1930DB;
   width: 184px;
   height: 60px;
-  margin: 0px 100px;
+  margin-right: 6.25rem;
+  margin-bottom: 2.5rem;
 }
 
 .line {
-  max-height: 40px;
+  max-height: 2.5rem;
   background-color: #BA1863;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,5 +88,59 @@ body {
 
 .line div {
   z-index: 10;
+}
+
+.line p {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center !important;
+  padding: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .description {
+    width: 100%;
+    margin: 0rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .description h1 {
+    font-size: 2rem;
+  }
+  .invitation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+    margin: 0rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .invitation p {
+    background-color: #FFBC15;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 1rem 0 1rem;
+    margin-left: 4.5rem;
+  }
+  .line {
+    max-height: 3.5rem;
+  }
+  .line p {
+    text-align: left !important;
+  }
 }
 /*# sourceMappingURL=firstView.css.map */

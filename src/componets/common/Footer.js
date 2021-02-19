@@ -30,7 +30,9 @@ const Footer = () => {
                 <li>
                     <Link to="/purchase">Comprar Bonos</Link>
                 </li>
-                <li><a href="#validacion">Validación</a></li>
+                <li>
+                    <Link to="/validation">Validación</Link>
+                </li>
             </ul>
             </div>
             

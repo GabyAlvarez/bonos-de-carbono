@@ -1,7 +1,6 @@
 import React from 'react'
 import InputGroup from 'react-bootstrap/InputGroup'
 import FormControl from 'react-bootstrap/FormControl'
-import Table from 'react-bootstrap/Table'
 
 
 const Validation = () => {
@@ -22,17 +21,23 @@ const Validation = () => {
                 <thead>
                     <tr>
                     <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Username</th>
+                    <th>Empresa</th>
+                    <th>Huella carbono</th>
+                    <th>Bonos adquiridos</th>
+                    <th>Fecha</th>
+                    <th>Proyectos</th>
+                    <th>Certificadi carbono neutra</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                     <td>1</td>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>Grupo Modelo México</td>
+                    <td>130 tCO2</td>
+                    <td>130</td>
+                    <td>1/01/2021</td>
+                    <td>Recarga de Acuífero en Hidalgo</td>
+                    <td><a>Si</a></td>
                     </tr>
                     </tbody>
             </table>

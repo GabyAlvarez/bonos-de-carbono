@@ -1,7 +1,15 @@
 @import './stylesMain.scss';
 
+.seccionSearch {
+    width: 100% !important;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .search{
-    width: 60%;
+    width: 80%;
     margin: 2rem;
 }
 
@@ -14,8 +22,10 @@
 
 .tableClient{
     width: 80%;
+    thead{
+        background-color: $firstAzul;
+        color: $neutralWhite;
+        padding: 2rem 1rem;
+    }
 }
 
-.seccionSearch {
-    height: 80vh;
-}

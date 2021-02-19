@@ -35,7 +35,38 @@ ul {
   margin: 0px;
   list-style: none;
   padding: 0;
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: right;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .footerSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    background-color: #1930DB;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .footerSection .logo {
+    margin: 1rem;
+  }
+  .redSocial img {
+    width: 2rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    padding: 0.5rem;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

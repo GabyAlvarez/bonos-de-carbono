@@ -7,7 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale !important;
 }
 
+.purchase {
+  width: 100% !important;
+}
+
 .bondInfo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +46,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FFFFFF;
+  font-weight: bold;
   background-color: #0ED956;
   border-radius: 10PX;
   border-color: #0ED956;
@@ -50,6 +56,7 @@ body {
 }
 
 .proyectInfo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,13 +70,11 @@ body {
 .proyectInfo img {
   height: 200px;
   border-radius: 10PX;
-  margin-left: 5%;
   width: 90%;
 }
 
 .proyectInfo div p {
   text-align: justify;
-  padding: 0 1rem 0 0;
   /*display: -webkit-box;
             -webkit-line-clamp: 12;
             -webkit-box-orient: vertical;  

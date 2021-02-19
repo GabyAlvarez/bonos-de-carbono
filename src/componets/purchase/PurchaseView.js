@@ -29,13 +29,14 @@ const PurchaseView = () => {
     
     return (
         <>
+        <div className="purchase">
             {
                 estados.map(item => (
                     <Fragment key={item.location}>
                         <div className="bondInfo">
                             <h1>{item.name}</h1>
                             <h1 className="resaltar">{item.offsetPrice}</h1>
-                            <h2>{item.totalOffsets} Bonos disponibles</h2>
+                            <h2>{item.availableOffsets} Bonos disponibles</h2>
 
                             <button className="btnBuy" onClick={
                                 ()=> {
@@ -47,12 +48,12 @@ const PurchaseView = () => {
                         </div>
 
                         <div className="proyectInfo row">
-                            <div className="col-12 col-lg-3 col-md-4">
+                            <div className="col-12 col-lg-4 col-md-4">
                                 <img src={item.img}></img>
                             </div>
                             
                             
-                            <div className="col-12 col-lg-9 col-md-8">
+                            <div className="col-12 col-lg-8 col-md-8">
                                 <p>{item.description}</p>
                             </div>
                         </div>
@@ -67,6 +68,7 @@ const PurchaseView = () => {
                     estado = {estado}
                 ></ModalPurchase>
             }
+        </div>
         </>
     )
 }

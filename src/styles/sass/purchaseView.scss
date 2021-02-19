@@ -1,6 +1,11 @@
 @import './stylesMain.scss';
 
+.purchase{
+    width: 100% !important;
+}
+
 .bondInfo{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +25,7 @@
     align-items: center;
     justify-content: center;
     color: $neutralWhite ;
+    font-weight: bold;
     background-color: $firstVerde;
     border-radius: $radius;
     border-color: $firstVerde;
@@ -29,19 +35,18 @@
 }
 
 .proyectInfo{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     img{
         height: 200px;
         border-radius: $radius;
-        margin-left: 5%;
         width: 90%;
     }
     div{
         p{
             text-align: justify;
-            padding: 0 1rem 0 0;
             /*display: -webkit-box;
             -webkit-line-clamp: 12;
             -webkit-box-orient: vertical;  
@@ -59,7 +64,7 @@
             padding: 1.5rem !important;
         }
 
-        .description h1  {
+        .description h1{
             font-size: 1.5rem !important;
         }
 

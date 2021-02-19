@@ -19,10 +19,38 @@
     margin: 0px 15px 0px 15px;
 }
 
-ul {
+ul{
     margin: 0px;
     list-style: none;
     padding: 0;
-    color: #ffffff;
+    color: $neutralWhite;
     text-align: right;
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .footerSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        background-color: $firstAzul;
+        margin-top: 1rem;
+        padding: 1rem;
+        .logo{
+            margin: 1rem;
+        }
+    }
+
+    .redSocial img{
+        width: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    ul{
+        padding: 0.5rem;
+        text-align: center;
+        
+    }
+
 }
