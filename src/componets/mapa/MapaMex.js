@@ -42,28 +42,30 @@ export const MapaMex = () => {
         chart: {
             height: 600,
             events: {
-                load: function() {
-                    this.series[0].data = this.series[0].data.map((el) => {
-                        if (el['value'] > 0) {
-                        el.color = 'rgba(25,48,219,0.7)';
-                        return el;
+                  /*load: function() {
+                    let temporal = this.series[0].data 
+                    console.log(temporal)
+                 }
+                 temporal.map(estado => {
+                        if (estado['value'] > 0) { // tiene bonos de carbono
+                            estado.color = 'rgba(25,48,219,0.7)';
+                        return estado;
                         }
 
-                        return el
+                        return estado
                     })
-
+                    this.series[0].data = temporal
+                    
                     this.update({
                         series: [{
                             data: this.series[0].data
-                        }]
-                    })
-                }
+                         }]
+                    }) 
+                }*/
             }
         },
-        title: {
-            text: "Conoce nuestros proyectos.",
-        },
         plotOptions: {
+            //Segun la doc se incluye este apartado para funcionalidad despues del render
             series: {
                 events: {
                     click: function (e) {
@@ -93,14 +95,11 @@ export const MapaMex = () => {
                         
                     }
                 },
-                tooltip: {
-                    formatter: function() {
-                        return 'The value for'
-                    }
-                }
             }
         },
-        
+        title: {
+            text: "Conoce nuestros proyectos.",
+        },
         series: [
             {
             mapData: mapDataMexico,

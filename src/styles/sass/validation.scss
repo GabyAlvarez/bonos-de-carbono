@@ -1,0 +1,21 @@
+@import './stylesMain.scss';
+
+.search{
+    width: 60%;
+    margin: 2rem;
+}
+
+.btnSearch{
+    background-color: $firstMagenta;
+    border-color: $firstMagenta;
+    color: $neutralWhite;
+    border-radius: 0rem .6rem .6rem 0rem;
+}
+
+.tableClient{
+    width: 80%;
+}
+
+.seccionSearch {
+    height: 80vh;
+}

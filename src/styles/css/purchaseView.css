@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet');
 body {
-  margin: 0px 100px;
+  margin: 0px;
+  padding: 0px !important;
   font-family: 'Oswald', sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -21,32 +22,78 @@ body {
   text-align: center;
 }
 
+.bondInfo h1 {
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.resaltar {
+  color: #BA1863;
+}
+
+.btnBuy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  background-color: #0ED956;
+  border-radius: 10PX;
+  border-color: #0ED956;
+  width: 184px;
+  height: 60px;
+  margin: 20px;
+}
+
 .proyectInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .proyectInfo img {
-  width: 367px;
-  height: 244px;
+  height: 200px;
   border-radius: 10PX;
-}
-
-.proyectInfo div {
-  width: 672px;
-  height: 244px;
+  margin-left: 5%;
+  width: 90%;
 }
 
 .proyectInfo div p {
   text-align: justify;
-  display: -webkit-box;
-  -webkit-line-clamp: 6;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  padding: 0 1rem 0 0;
+  /*display: -webkit-box;
+            -webkit-line-clamp: 12;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;*/
+}
+
+@media (max-width: 576px) {
+  .proyectInfo img {
+    width: 80% !important;
+  }
+  .proyectInfo p {
+    padding: 1.5rem !important;
+  }
+  .proyectInfo .description h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .proyectInfo img {
+    width: 80% !important;
+  }
+  .proyectInfo p {
+    padding: 1.5rem;
+  }
 }
 /*# sourceMappingURL=purchaseView.css.map */

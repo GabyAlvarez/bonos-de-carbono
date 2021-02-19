@@ -1,13 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet');
 body {
-  margin: 0px 100px;
+  margin: 0px;
+  padding: 0px !important;
   font-family: 'Oswald', sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
 }
 
 .footerSection {
-  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
   background-color: #1930DB;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 115px;
+  height: 40px;
+}
+
+.redSocial img {
+  width: 40px;
+  margin: 0px 15px 0px 15px;
+}
+
+ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0;
+  color: #ffffff;
+  text-align: right;
 }
 /*# sourceMappingURL=footer.css.map */

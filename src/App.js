@@ -9,6 +9,7 @@ import Purchase from './componets/purchase/PurchaseView';
 import Footer from './componets/common/Footer';
 import Navbar from './componets/common/Navbar';
 import './App.css'
+import Validation from "./componets/validationView/Validation";
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/purchase">
               <Purchase />
+            </Route>
+            <Route path="/validation">
+              <Validation />
             </Route>
         </Switch>
       <Footer />  

@@ -1,5 +1,5 @@
 const dataEdosMexico = [
-    ["mx-3622", 0],
+     ["mx-3622", 0],
     ["mx-bc", 0],
     ["mx-bs", 0],
     ["mx-so", 0],
@@ -11,8 +11,8 @@ const dataEdosMexico = [
     ["mx-mo", 0],
     ["mx-df", 0],
     ["mx-qt", 0],
-    ["mx-tb", 0],
-    ["mx-cs", 10000],
+    ["mx-tb", 0], 
+    ["mx-cs", 25000],
     ["mx-nl", 0],
     ["mx-si", 0],
     ["mx-ch", 0],
@@ -21,7 +21,7 @@ const dataEdosMexico = [
     ["mx-ag", 0],
     ["mx-ja", 0],
     ["mx-mi", 0],
-    ["mx-oa", 1000],
+    ["mx-oa", 25000],
     ["mx-pu", 0],
     ["mx-gr", 0],
     ["mx-tl", 0],
@@ -31,7 +31,7 @@ const dataEdosMexico = [
     ["mx-dg", 0],
     ["mx-gj", 0],
     ["mx-sl", 0],
-    ["mx-hg", 1000],
+    ["mx-hg", 25000],
 ]
 
 export default dataEdosMexico;

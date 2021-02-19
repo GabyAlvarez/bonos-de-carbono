@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,yGAAI;AAEZ,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,cAAc;EACvB,WAAW,EAAE,+BAA+B;EAC5C,sBAAsB,EAAE,sBAAsB;EAC9C,uBAAuB,EAAE,oBAAoB;CAChD;;ADND,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,OAAO,EAAE,IAAI;CAWhB;;AAdD,AAII,aAJS,CAIT,KAAK,CAAA;EACD,MAAM,EAAE,qBAAqB;CAChC;;AANL,AAOI,aAPS,CAOT,KAAK,CAAA;EACD,MAAM,EAAE,mBAAmB;CAC9B;;AATL,AAUI,aAVS,CAUT,MAAM,CAAA;EACF,MAAM,EAAE,sBAAsB;CAEjC",
+    "sources": [
+        "../sass/modalPurchase.scss",
+        "../sass/stylesMain.scss"
+    ],
+    "names": [],
+    "file": "modalPurchase.css"
+}

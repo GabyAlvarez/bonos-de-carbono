@@ -6,4 +6,24 @@ body {
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
 }
-/*# sourceMappingURL=stylesMain.css.map */
+
+.search {
+  width: 60%;
+  margin: 2rem;
+}
+
+.btnSearch {
+  background-color: #BA1863;
+  border-color: #BA1863;
+  color: #FFFFFF;
+  border-radius: 0rem .6rem .6rem 0rem;
+}
+
+.tableClient {
+  width: 80%;
+}
+
+.seccionSearch {
+  height: 80vh;
+}
+/*# sourceMappingURL=validation.css.map */

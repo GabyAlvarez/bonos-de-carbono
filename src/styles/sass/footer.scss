@@ -1,6 +1,28 @@
 @import './stylesMain.scss';
 
 .footerSection{
-    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
     background-color: $firstAzul;
+    margin-top: 2rem;
+}
+
+.logo{
+    width: 115px;
+    height: 40px;
+}
+
+.redSocial img{
+    width: 40px;
+    margin: 0px 15px 0px 15px;
+}
+
+ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+    text-align: right;
 }

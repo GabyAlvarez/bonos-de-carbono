@@ -2,17 +2,18 @@
 
 .firstView{
     background-image: url('../../assets/principal.jpeg');
+    background-size: cover;
     min-height: 500px;
     margin: 0px;
 }
 
 .description{
-    width: 600px;
+    width: 50%;
     height: 328px;
     margin: 0px 100px;
     padding: 40px 0px;
     h1{
-        font-size: 54px;
+        font-size: 3vw;
     } 
 }
 
@@ -34,12 +35,11 @@
 }
 
 .line{
-    max-height: 30px;
+    max-height: 40px;
     background-color: $firstMagenta;
     display: flex;
     justify-content: flex-end;
-    img{
-        
-
+    div{
+        z-index: 10;
     }
 }
